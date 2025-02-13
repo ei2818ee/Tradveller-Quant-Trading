@@ -22,7 +22,7 @@ RUNTIME_MODE = RuntimeMode.Live
 
 class Strategy(BaseStrategy):
     symbol = [Symbol(base="BTC", quote="USDT")]
-    quantity = 0.001
+    quantity = 0.3
     hedge_mode = True
     sma_length = 50
     z_score_threshold = 0.75
